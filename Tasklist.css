@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    text-shadow: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+p,
+a,
+button {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+html,
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container-tasklist {
+    position: relative;
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-tasklist .parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 250px;
+    gap: 5px;
+    flex-wrap: nowrap;
+    max-width: 800px;
+    padding: 5px 5px;
+    overflow-x: auto;
+    
+}
+
+.container-tasklist .parent .tasklist {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    height: 100%;
+    width: 250px;
+    background-color: #9400FF;
+    color: white;
+    border-radius: 10px;
+}
+.container-tasklist .parent .tasklist .head-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container-tasklist .parent .tasklist .head-card h5{
+    background-color: #4E1C72;
+    border: none;
+    font-size: x-small;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+.container-tasklist .parent .tasklist .head-card p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.container-tasklist .parent .tasklist .body-card h5{
+    margin-top: 30px;
+    font-size: large;
+    letter-spacing: normal;
+    padding: 10px;
+}
+.container-tasklist .parent .tasklist p{
+    padding: 0px 10px;
+    font-size: small;
+}
+.container-tasklist .parent .tasklist .mark{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
+}
+.container-tasklist .parent .tasklist .mark button{
+    padding:5px 20px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.container-tasklist .parent .tasklist .mark .markcomplete{
+    background-color: rgb(47, 47, 187);
+}
+.container-tasklist .parent .tasklist .mark .markfail{
+    background-color: rgb(187, 47, 68);
+}
+.container-tasklist .parent .tasklist .mark .markcomplete:hover{
+    background-color: rgb(32, 32, 127);
+    cursor: pointer;
+}
+.container-tasklist .parent .tasklist .mark .markfail:hover{
+    background-color: rgb(119, 31, 44);
+    cursor: pointer;
+}

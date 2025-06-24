@@ -1,0 +1,84 @@
+
+* {
+    text-shadow: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+p,
+a,
+button {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+
+.tasklist-new {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    height: 100%;
+    width: 250px;
+    background-color: #9400FF;
+    color: white;
+    border-radius: 10px;
+}
+.tasklist-new .head-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.tasklist-new .head-card h5{
+    background-color: #4E1C72;
+    border: none;
+    letter-spacing: 0px;
+    font-size: x-small;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+.tasklist-new .head-card p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.tasklist-new .body-card h5{
+    margin-top: 30px;
+    font-size: large;
+    letter-spacing: normal;
+    padding: 10px;
+}
+.tasklist-new p{
+    padding: 0px 10px;
+    font-size: small;
+}
+.tasklist-new .mark{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
+}
+.tasklist-new .mark .accepttask{
+    padding:5px 20px;
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: #550092;
+}
+.tasklist-new .mark .accepttask:hover{
+    background-color: #320055;
+    cursor: pointer;
+}

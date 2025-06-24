@@ -1,0 +1,111 @@
+*{
+    margin: 0;padding: 0;
+}
+.container-alltask{
+    width: auto;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container-alltask .all{
+    height: 300px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px;
+}
+.container-alltask .all .task{
+    width: 100%;
+    background-color: rgb(8, 8, 255);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.container-alltask .all .task p{
+    background-color: rgb(0, 0, 75);
+    font-size: small;
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 20px 40px;
+}
+.container-alltask .all .task h3{
+    letter-spacing: 0px;
+    margin: 20px 40px;
+    width: 20%;
+    text-align: center;
+
+}
+.container-alltask .all .task h5{
+    font-weight: 800;
+    font-size: medium;
+    width: 20%;
+    text-align: center;
+    margin: 20px 40px;
+    letter-spacing: 0px;
+}
+
+.container-alltask .all-content{
+    height: 300px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px;
+    overflow: auto;
+}
+.container-alltask .all-content .task{
+    width: 100%;
+    background-color: rgb(83, 83, 255);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.container-alltask .all-content .task p{
+    background-color: rgb(0, 0, 75);
+    font-size: small;
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 20px 40px;
+}
+.container-alltask .all-content .task h3{
+    letter-spacing: 0px;
+    margin: 20px 40px;
+    width: 20%;
+    text-align: center;
+
+}
+.container-alltask .all-content .task h5{
+    font-weight: 800;
+    font-size: medium;
+    width: 20%;
+    text-align: center;
+    margin: 20px 40px;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#parent::-webkit-scrollbar{
+  display: none;
+}
+#parent-admin::-webkit-scrollbar{
+  display: none;
+}
+body {
+  background: linear-gradient(#5537ff, white);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

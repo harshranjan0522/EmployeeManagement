@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-createtask{
+    margin-top: 30px;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container-createtask .createform{
+    max-width: 1000px;
+    width: 100%;
+    background-color: #780dc05e;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.container-createtask .createform.createform:hover{
+    background-color: #7a1cb93a;
+    box-shadow: 0px 0px 40px #5d1b8999;
+}
+.container-createtask .createform .left{
+    width: 50%;
+}
+.container-createtask .createform .left h5{
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+.container-createtask .createform .left input{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 5px;
+    margin-top: 2px;
+    color: blueviolet;
+}
+.container-createtask .createform .desc{
+    width: 50%;
+}
+.container-createtask .createform .desc textarea{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 5px;
+    margin-top: 2px;
+    color: blueviolet;
+}
+.container-createtask .createform .desc h5{
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+.container-createtask .createform .desc button{
+    padding: 8px 0px;
+    width: 92%;
+    border: none;
+    border-radius: 5px;
+    background-color: #5d009c;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.container-createtask .createform .desc button:hover{
+    cursor: pointer;
+    background-color: #340056;
+}
